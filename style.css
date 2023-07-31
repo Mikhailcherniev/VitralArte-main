@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@font-face{
+    font-family: "OpenSans Regular";
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Poppins Bold";
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Poppins Regular";
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Roboto Bold";
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Roboto Bolt";
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: "OpenSans Bold";
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.contato{
+    background-color: #106eea;
+}
+
+.contato.container{
+    justify-content: flex-start;
+    height: 35px;
+}
+
+.contato .container a{
+    font: 500 20px 'OpenSans Regular';
+    color: white;
+    margin-right: 40px;
+}
+
+.logo.nome{
+    font: 700 40px 'Poppins Bold';
+}
+
+.menu a{
+    font: 500 22px 'OpenSans Regular';
+    color: black;
+    margin-left: 60px;
+}
+
+.inicio{
+    background-image: url(Img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio .container{
+justify-content: flex-end;
+height: 400px;
+}
+
+.titulo-inicio{
+    font: 700 50px 'Poppins Regular';
+}
+
+.texto-inicio{
+    font: 700 40px 'Poppins Regular';
+}
+
+.titulo{
+    font: 700 40px 'Roboto Bold';
+}
+
+span{
+    color: #106eea;
+}
+
